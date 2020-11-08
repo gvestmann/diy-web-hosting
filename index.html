@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>DYI Web Hosting</title>
+    <!-- My custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts - Nunito -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap" rel="stylesheet">
+    <!-- Bootstrap base CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+</head>
+<body>
+
+    <main class="flex-center flex-column z-depth-5">
+        <h1 class="animated fadeIn mb-3">DIY Web Hosting</h1>
+        <h2 class="animated fadeIn">How to host HTML on your own Windows machine?</h2>
+        <div class="main__wrapper">
+
+            <p>Some time ago I bought a cheap Acer laptop for hosting a <a target="_blank" href="https://www.plex.tv">Plex Server.</a> I keep all sorts of good stuff on an external SSD and access it via VNC Viewer to put even more sweet stuff on that hard-drive. Simply put, it's hugely popular with my household AND friends (who can access it from their own home.)</p>
+            <p>For the networking assignment I got inspired by this media server of mine. How about hosting a website on my own web server? It ticks all the boxes when it come to learning about HTTPS, DNS, TCP/IP, Web server basic functionality, etc.</p>
+            <p>So how about digging into this?</p>
+            <p class="p__smaller">Here's my lame ass Windows 10 machine, waiting to be further connected to the outside world ...</p>
+            <p>For this walkthrough I'll be putting up a simple, plain HTML site. We'll be setting up and <a href="https://sourceforge.net/projects/wampserver/files/">WAMP-server</a>. This is an application that bundles together a lot off hosting-essential-stuff, like Apache, SQL, PHP. We won't be using all those features, but may another episode?</p>
+            <p>First step ... Accessing my computer via remote desktop.</p>
+            <img src="img/1.png">
+            <p class="p__smaller">This computer is pretty much vanilla Windows. As you can see, I haven't even installed a browser. Edge works just fine for this and I try not to take up any unnecessary, valuable real estate on my small, local hard-drive.</p>
+            <p>Second, downloading WAMP. This is the 64-bit version. WAMP's official website does some annoying sign-up bullshit when hitting "Download" so I linked to a file hosted on Sourceforge.</p>
+            <img src="img/2.png">
+            <p class="p__smaller">This is sure taking a while to download ... Looks like Sourceforge is doing some serious throttling!</p>
+            <p>Download finally completed. Let's open up this sucker!</p>
+            <img src="img/3.png">
+            <p>Now, god damn it!</p>
+            <p>The VNC viewer is giving me a black screen. Probably because I'm running MacOs beta on my primary machine. I guess I'll have to go home and finish this install physically.</p>
+            <p>Later skater ... </p>
+            <div class="main__pagebreak"></div>
+            <p>... and we're back, ladies and gentlemen! I tried updating the program, but it was also a no-go. So we're here on the Windows computer itself.</p>
+            <p>Now I install WAMP. This is a pretty straight-forward thing. </p>
+        </div>
+    </main>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Popper JS tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+  </body>
+</html>
