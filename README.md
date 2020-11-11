@@ -1,9 +1,11 @@
 # diy-web-hosting
 
-The assignent is called "Networking and Internet Basics". So I'm hosting a basic Internet page via some Networking magic.
+The technical article is found [here.](https://gvestmann.github.io/diy-web-hosting/). 
 
-The host machine is a piece-of-shit Acer laptop with some 4gb of RAM and a weak-ass CPU. 
+The assignment is called "Networking and Internet Basics". So what I'm doing for that one is hosting some Basic Internet via some Networking magic.
 
-The website is built on Bootstrap. There's no JS sorcery here. It has some custom CSS tweaks. It's mainly about the content and the hosting tutorial itself.
+The host machine I'm working with is a piece-of-shit Acer laptop with some 4gb of RAM and a weak-ass CPU I bought for other purposes a while back. 
 
-I like to call my host "Delores" ...
+The article/website is built on Bootstrap. There's no JS sorcery here. It has some custom CSS tweaks. Since it's all about the content and tutorial itself, don't pay too much attention to the code it relies on. It's nicely responsive and all. 
+
+I like to call my host "Delores", if you get the ref ...
