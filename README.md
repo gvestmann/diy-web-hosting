@@ -1,6 +1,6 @@
 # diy-web-hosting
 
-The technical article is found [here.](https://gvestmann.github.io/diy-web-hosting/). 
+The technical article is found [here.](https://gvestmann.github.io/diy-web-hosting/) 
 
 The assignment is called "Networking and Internet Basics". So what I'm doing for that one is hosting some Basic Internet via some Networking magic.
 
