@@ -4,6 +4,7 @@ body {
 }
 main {
     margin-top: 4rem;
+    margin-bottom: 4rem;
     font-family: 'Nunito', sans-serif;
     width: 70%;
 }
@@ -31,6 +32,7 @@ a {
 .main__wrapper {
     text-align: left;
     padding: 2rem 4rem 2rem 4rem;
+    width: 100%;
 }
 
 p {
@@ -50,10 +52,15 @@ img {
     margin-top: 1rem !important;
 }
 
-@media only screen and (max-width: 800px) {
+.img__lame {
+    margin-bottom: 1.5rem;
+}
+
+@media only screen and (max-width: 900px) {
     main {
         width: 90% !important;
         margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
     }
 
     h2 {
@@ -62,6 +69,7 @@ img {
 
     .main__wrapper {
         padding: 1rem 2rem 1rem 2rem;
+
     }
 
     .p__smaller {
